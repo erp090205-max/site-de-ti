@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eros Rodrigues — Técnico de Informática</title>
+<meta name="description" content="Formatação, limpeza, troca de peças, reparo de placas, redes e criação de sites. Atendimento direto, sem enrolação.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="board-bg" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#topo" class="brand">
+      <span class="brand-mark">ER</span>
+      <span class="brand-text">Eros Rodrigues<span class="brand-sub">técnico de informática</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+      <span></span><span></span><span></span>
+      <span class="sr-only">Abrir menu</span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato" class="nav-cta">Chamar no WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main id="topo">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Manutenção de computadores em Fortaleza</p>
+        <h1>Seu computador trabalha.<br>O conserto não devia ser um mistério.</h1>
+        <p class="hero-lead">Eu diagnostico, explico o que aconteceu em português claro e resolvo — em casa, no escritório ou na oficina. Sem termo técnico pra confundir, sem enrolação no preço.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/5585996754321" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+        </div>
+      </div>
+      <div class="hero-board" aria-hidden="true">
+        <svg viewBox="0 0 420 420" class="trace-svg" id="traceSvg">
+          <g class="traces">
+            <path class="trace" d="M40 60 H180 V140 H340" />
+            <path class="trace" d="M40 140 H120 V220" />
+            <path class="trace" d="M380 40 V180 H260 V260" />
+            <path class="trace" d="M60 300 H160 V380 H320 V300 H380" />
+            <path class="trace" d="M260 60 V120 H340 V200" />
+            <path class="trace" d="M100 220 H220 V300" />
+          </g>
+          <g class="pads">
+            <circle class="pad" cx="40" cy="60" r="5"/>
+            <circle class="pad" cx="180" cy="60" r="5"/>
+            <circle class="pad" cx="340" cy="140" r="5"/>
+            <circle class="pad" cx="40" cy="140" r="5"/>
+            <circle class="pad" cx="120" cy="220" r="5"/>
+            <circle class="pad" cx="380" cy="40" r="5"/>
+            <circle class="pad" cx="260" cy="180" r="5"/>
+            <circle class="pad" cx="260" cy="260" r="5"/>
+            <circle class="pad" cx="60" cy="300" r="5"/>
+            <circle class="pad" cx="160" cy="380" r="5"/>
+            <circle class="pad" cx="320" cy="380" r="5"/>
+            <circle class="pad" cx="380" cy="300" r="5"/>
+            <circle class="pad" cx="260" cy="60" r="5"/>
+            <circle class="pad" cx="340" cy="200" r="5"/>
+            <circle class="pad" cx="100" cy="220" r="5"/>
+            <circle class="pad" cx="220" cy="300" r="5"/>
+          </g>
+          <rect class="chip" x="170" y="170" width="80" height="80" rx="4"/>
+          <text class="chip-label" x="210" y="215" text-anchor="middle">ER‑01</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="servicos">
+    <div class="wrap">
+      <h2>Serviços</h2>
+      <p class="section-lead">Cada serviço abaixo tem uma referência, como num componente de placa — é só me chamar citando o que você precisa.</p>
+      <div class="service-grid">
+
+        <article class="service-card">
+          <span class="ref">S1</span>
+          <h3>Formatação e limpeza</h3>
+          <p>Formatação completa, remoção de vírus e lentidão, limpeza física interna do computador ou notebook.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="ref">S2</span>
+          <h3>Troca de peças</h3>
+          <p>Troca de HD, SSD, memória, fonte, cooler e outros componentes, com orientação sobre a melhor peça pro seu bolso.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="ref">S3</span>
+          <h3>Reparo de placas</h3>
+          <p>Diagnóstico e reparo de placa-mãe, placa de vídeo e outras placas com defeito, quando o conserto compensa.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="ref">S4</span>
+          <h3>Instalação de software</h3>
+          <p>Sistema operacional, drivers, programas e configurações — do jeito que você usa no dia a dia.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="ref">S5</span>
+          <h3>Redes: montagem e reparo</h3>
+          <p>Montagem e reparo de redes residenciais e de escritório, cabeamento, Wi‑Fi e resolução de quedas de conexão.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="ref">S6</span>
+          <h3>Venda de peças</h3>
+          <p>Peças novas e usadas testadas, com garantia de funcionamento antes de sair da minha mão.</p>
+        </article>
+
+        <article class="service-card">
+          <span class="ref">S7</span>
+          <h3>Criação de sites</h3>
+          <p>Sites simples e diretos para quem precisa existir na internet sem complicação — como este aqui.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="sobre">
+    <div class="wrap about-inner">
+      <div class="about-copy">
+        <h2>Sobre</h2>
+        <p>Meu nome é Eros Rodrigues, sou técnico de informática e trabalho com manutenção de computadores. Atendo desde reparos simples, como uma formatação, até problemas de placa que exigem mais tempo de bancada.</p>
+        <p>Prefiro explicar o defeito antes de mexer em qualquer coisa. Você decide se vale a pena consertar, trocar a peça ou seguir pra um equipamento novo — a decisão é sua, a informação é minha função.</p>
+      </div>
+      <div class="about-card">
+        <p class="about-card-label">Atendimento</p>
+        <p>Fortaleza e região</p>
+        <p class="about-card-label">Endereço</p>
+        <p>Rua do Perigo, esquina da Periculosidade</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials" id="depoimentos">
+    <div class="wrap">
+      <h2>O que dizem os clientes</h2>
+      <div class="testimonial-grid">
+
+        <blockquote class="testimonial">
+          <p>“Meu notebook não ligava mais e o Eros resolveu no mesmo dia. Explicou tudo sem enrolação, coisa rara.”</p>
+          <footer>Marcos Vieira</footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Contratei pra montar a rede do escritório inteiro. Ficou rápida, sem quedas, e ele voltou depois só pra conferir se estava tudo certo.”</p>
+          <footer>Juliana Farias</footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Achei que tinha perdido todos os meus arquivos quando o HD parou de rodar. Ele recuperou quase tudo e ainda me ensinou a fazer backup direito.”</p>
+          <footer>Renata Souza</footer>
+        </blockquote>
+
+        <blockquote class="testimonial">
+          <p>“Pedi um site simples pra minha loja e foi exatamente isso: simples, rápido no ar e do jeito que eu queria, sem enfeite desnecessário.”</p>
+          <footer>Paulo Henrique</footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contato">
+    <div class="wrap contact-inner">
+      <div class="contact-copy">
+        <h2>Vamos resolver seu problema</h2>
+        <p>Me conta o que está acontecendo com o equipamento e eu retorno com um diagnóstico rápido.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">WhatsApp</span>
+            <a href="https://wa.me/5585996754321" target="_blank" rel="noopener">(85) 99675‑4321</a>
+          </li>
+          <li>
+            <span class="contact-label">E‑mail</span>
+            <a href="mailto:tech@gmail.com">tech@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Endereço</span>
+            <span>Rua do Perigo, esquina da Periculosidade</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+
+        <label for="issue">O que está acontecendo?</label>
+        <textarea id="issue" name="issue" rows="4" required placeholder="Ex: o computador não liga, a internet cai toda hora..."></textarea>
+
+        <button type="submit" class="btn btn-primary btn-block">Enviar pelo WhatsApp</button>
+        <p class="form-hint" id="formHint">Isso abre o WhatsApp com sua mensagem já preenchida — é só conferir e mandar.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Eros Rodrigues — técnico de informática</span>
+    <span>Rua do Perigo, esquina da Periculosidade</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
